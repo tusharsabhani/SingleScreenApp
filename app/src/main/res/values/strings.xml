@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Open House Cafe</string>
+    <string name="timings">12 Noon to 1AM</string>
+    <string name="phone_no">9999611332</string>
+    <string name="email">openhousecafe@gmail.com</string>
+    <string name="adsress">C 37, C Block, Connaught Place</string>
+    <string name="details">Details</string>
+    <string name="whyvist">Why should you visit?</string>
+    <string name="description">Located in the heart of Delhi, the cafe doles out fusion experiments that you would be apprehensive about, and nails them. With a deal for every day of the week, they ensure their patrons get the best bang for their buck. Regular gigs are organised, so a post-work session could be a blast here. </string>
+    <string name="moreinfo">MORE INFO</string>
+    <string name="wheelchair">Wheelchair Accessible</string>
+    <string name="live">Live Sports Screening</string>
+    <string name="Wifi">Free Wifi</string>
+    <string name="nytlyf">Nightlife</string>
+    <string name="music">Live Music</string>
+    <string name="name">Open House Cafe</string>
+</resources>

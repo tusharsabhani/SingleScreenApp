@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="220dp"
+       android:src="@drawable/openhousecafe"
+       android:scaleType="fitXY"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/name"
+           tools:fontFamily="@font/great_vibes"
+           android:textSize="@dimen/namesize"
+           android:textAlignment="center"
+           android:textColor="#2196F3"
+           android:paddingTop="@dimen/nametop"
+           android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/details"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:textSize="@dimen/details_size"
+          android:paddingStart="@dimen/left_margin"
+          android:paddingTop="@dimen/twenty_dp"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:paddingTop="@dimen/fifteen_dp">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_phone_black_24dp"
+             android:paddingStart="@dimen/left_margin"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="@string/phone_no"
+             android:autoLink="phone"
+             android:paddingLeft="@dimen/iconTexr"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_access_time_black_24dp"
+             android:paddingStart="@dimen/left_margin"/>
+
+         <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="@string/timings"
+             android:textColor="#455A64"
+          android:paddingLeft="@dimen/iconTexr"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_location_on_black_24dp"
+             android:paddingStart="@dimen/left_margin"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:textColor="#455A64"
+             android:text="@string/adsress"
+             android:autoLink="map"
+             android:paddingLeft="@dimen/iconTexr"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_email_black_24dp"
+             android:paddingStart="@dimen/left_margin"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="@string/email"
+             android:autoLink="email"
+             android:paddingLeft="@dimen/iconTexr"/>
+
+      </LinearLayout>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/whyvist"
+          android:textStyle="bold"
+          android:paddingStart="@dimen/left_margin"
+          android:paddingTop="@dimen/twenty_dp"
+          android:textColor="#000000"
+          android:textSize="@dimen/details_size"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/description"
+          android:textColor="#455A64"
+          android:paddingLeft="@dimen/twenty_dp"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:paddingStart="@dimen/left_margin_1"
+          android:text="@string/moreinfo"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:paddingTop="@dimen/twenty_dp"/>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:src="@drawable/ic_radio_button_24dp"
+             android:paddingStart="@dimen/left_margin"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/wheelchair"
+             android:textColor="#455A64"/>
+      </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/ic_radio_button_24dp"
+               android:paddingStart="@dimen/left_margin"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/live"
+               android:textColor="#455A64"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/ic_radio_button_24dp"
+               android:paddingStart="@dimen/left_margin"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/music"
+               android:textColor="#455A64"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/ic_radio_button_24dp"
+               android:paddingStart="@dimen/left_margin"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/nytlyf"
+               android:textColor="#455A64"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/ic_radio_button_24dp"
+               android:paddingStart="@dimen/left_margin"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/Wifi"
+               android:textColor="#455A64"/>
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+</ScrollView>
